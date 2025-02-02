@@ -122,4 +122,6 @@ python inference_csv.py --csv_path example/inputs/ptcr_ba.csv --inf_type ptcr_ba
 
 The output score represents the binding probability of the input TCR CDR3 β-peptide pair. This score can be used to rank binding probabilities of TCR CDR3 β-peptide pairs or to determine if a pair is binding by checking if the score exceeds 0.5.
 
+## License
+All code including weight of neural network is licensed under the CC BY-NC-ND 4.0 license. 
 
