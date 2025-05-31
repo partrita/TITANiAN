@@ -1,0 +1,27 @@
+[project]
+name = "titanian"
+version = "0.1.0"
+description = "Robust Prediction of T-cell Epitope Immunogenicity using Multi-domain adversarial Learning"
+readme = "README.md"
+authors = [
+    { name = "JEONGHYEON KIM", email = "" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "torch>=2.7.0",
+    "torchaudio>=2.7.0",
+    "torchvision>=0.22.0",
+    "wandb>=0.19.11",
+]
+
+[project.scripts]
+matching = "titanian.mhc_pseudo_matching:main"
+inference = "titanian.inference:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

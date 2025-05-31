@@ -124,4 +124,3 @@ The output score represents the binding probability of the input TCR CDR3 β-pep
 
 ## License
 All code including weight of neural network is licensed under the CC BY-NC-ND 4.0 license. 
-
